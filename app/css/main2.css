@@ -528,6 +528,61 @@ mark,
 dl.row > dd + dt {
   clear: left; }
 
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaBold"; */
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../fonts/HelveticaBold/HelveticaBold.eot");
+  src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"), url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaLight"; */
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"), url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaBlack"; */
+@font-face {
+  font-family: "HelveticaBlack";
+  src: url("../fonts/HelveticaBlack/HelveticaBlack.eot");
+  src: url("../fonts/HelveticaBlack/HelveticaBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaBlack/HelveticaBlack.woff") format("woff"), url("../fonts/HelveticaBlack/HelveticaBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaHeavy"; */
+@font-face {
+  font-family: "HelveticaHeavy";
+  src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot");
+  src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaHeavy/HelveticaHeavy.woff") format("woff"), url("../fonts/HelveticaHeavy/HelveticaHeavy.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaMedium"; */
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url("../fonts/HelveticaMedium/HelveticaMedium.eot");
+  src: url("../fonts/HelveticaMedium/HelveticaMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaMedium/HelveticaMedium.woff") format("woff"), url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "HelveticaBlackItalic"; */
+@font-face {
+  font-family: "HelveticaBlackItalic";
+  src: url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.eot");
+  src: url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.woff") format("woff"), url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 .img-fluid, .carousel-inner > .carousel-item > img,
 .carousel-inner > .carousel-item > a > img {
   display: block;
@@ -2127,7 +2182,8 @@ input[type="button"].btn-block {
   width: 100%; }
 
 .btn_1 {
-  margin-left: 118px;
+  font-family: "HelveticaBold", sans-serif;
+  margin-left: 122px;
   border: 3px solid;
   font-size: 15px;
   padding-left: 25px;
@@ -2142,6 +2198,7 @@ input[type="button"].btn-block {
   background-color: transparent; }
 
 .btn_1:hover {
+  font-family: "HelveticaBold", sans-serif;
   color: white;
   border-color: #a59477;
   font-weight: bold;
@@ -2150,6 +2207,7 @@ input[type="button"].btn-block {
   background-color: #a59477; }
 
 .btn_2 {
+  font-family: "HelveticaBold", sans-serif;
   border: 3px solid;
   font-size: 15px;
   padding-left: 25px;
@@ -2164,6 +2222,7 @@ input[type="button"].btn-block {
   background-color: transparent; }
 
 .btn_2:hover {
+  font-family: "HelveticaBold", sans-serif;
   color: white;
   border-color: #a59477;
   font-weight: bold;
@@ -2172,6 +2231,7 @@ input[type="button"].btn-block {
   background-color: #a59477; }
 
 .btn_3 {
+  font-family: "HelveticaBold", sans-serif;
   margin-left: 10px;
   margin-top: 15px;
   border: 3px solid;
@@ -2188,6 +2248,7 @@ input[type="button"].btn-block {
   background-color: transparent; }
 
 .btn_3:hover {
+  font-family: "HelveticaBold", sans-serif;
   color: white;
   border-color: #a57780;
   font-weight: bold;
@@ -3073,17 +3134,13 @@ input[type="button"].btn-block {
   .navbar-toggleable-md {
     display: block !important; } }
 
-.navbar-nav {
-  font-family: normal  "Helvetica Neue", Helvetica bold, sans-serif;
+.navbar-nav li {
+  font-family: "HelveticaMedium", sans-serif;
   font-size: 13px;
   font-weight: bold;
-  float: right;
-  text-align: justify;
-  margin-top: 5px; }
-  .navbar-nav li {
-    padding-left: 40px; }
-    .navbar-nav li a {
-      text-transform: uppercase; }
+  margin-top: 5px;
+  text-transform: uppercase;
+  padding-left: 20px; }
 
 .navbar-light .navbar-nav .active > .nav-link {
   color: #a89574; }
@@ -3093,7 +3150,7 @@ input[type="button"].btn-block {
   padding-top: 5px; }
 
 .navbar-brand {
-  padding-left: 55px; }
+  padding-left: 60px; }
 
 .card {
   position: relative;
@@ -3539,7 +3596,8 @@ a.tag:focus, a.tag:hover {
   border-radius: 0; }
 
 .jumbotron img {
-  margin-left: 40px; }
+  position: relative;
+  left: 50px; }
 
 .jumborton-grey {
   background-color: #eeeeee; }
@@ -3814,30 +3872,26 @@ base::-moz-progress-bar,
     padding-right: 215px; }
   .social li {
     display: inline-block; }
-  .abz-h1 {
-    margin-left: -80px; }
-  .abz-h5 {
-    margin-left: -80px; }
+  .abz-1 {
+    margin-left: -100px; }
   .paragraph-1 {
-    line-height: 30px;
-    margin-left: -80px; }
-  .paragraph-2 {
-    margin-left: -80px; }
-  .btn_2 {
-    position: relative;
-    top: 58px;
-    margin-left: 80px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 6px;
-    padding-bottom: 6px; }
-  .btn_3 {
-    position: relative;
-    right: 10px;
+    margin-left: -100px; }
+  .paragraph-2-normal {
+    margin-left: -100px; }
+  .paragraph-3-normal {
+    margin-left: -48px; }
+  .abz-2 {
+    margin-left: -100px; }
+  .abz-3 {
+    margin-left: -48px; }
+  .btn_1 {
+    margin-left: 90px;
     padding-left: 23px;
     padding-right: 23px;
     padding-top: 6px;
-    padding-bottom: 6px; } }
+    padding-bottom: 6px; }
+  .jumbotron img {
+    margin-left: -35px; } }
 
 .list-group {
   padding-left: 0;
@@ -5014,43 +5068,46 @@ a.text-danger:focus, a.text-danger:hover {
     display: none !important; } }
 
 .abz-1 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaBold", sans-serif;
   font-size: 40px;
-  font-weight: bold;
   color: #a59477;
   padding-left: 120px;
   line-height: 2.5rem; }
 
+.abz-3 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 70px; }
+
 .abz-2 {
-  font-family: "Helvetica", Helvetica, sans-serif;
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 120px; }
+
+.paragraph-1 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 16px;
   color: #c7c7c7;
   padding: 50px;
   padding-left: 122px;
   line-height: 2rem; }
 
-.abz-3 {
-  color: #767676;
-  font-size: 25px;
-  font-weight: bold;
-  padding-left: 120px; }
-
 .paragraph-2-normal {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
   line-height: 25px;
   color: #767676;
   font-size: 15px;
   padding-left: 120px; }
 
 .paragraph-3-normal {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
   line-height: 25px;
   color: #767676;
   font-size: 15px;
-  padding-left: 70px; }
-
-.abz-4 {
-  color: #767676;
-  font-size: 25px;
-  font-weight: bold;
   padding-left: 70px; }
 
 /*!
